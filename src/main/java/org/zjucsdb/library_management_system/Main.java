@@ -15,6 +15,9 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            // start spring boot app
+            SpringApplication.run(Main.class, args);
+
             // parse connection config from "resources/application.yaml"
             ConnectConfig conf = new ConnectConfig();
             log.info("Success to parse connect config. " + conf.toString());
@@ -25,8 +28,6 @@ public class Main {
                 log.severe("Failed to connect database.");
                 System.exit(1);
             }
-
-            LibraryManagementApplication.start();
 
             // release database connection handler
             if (connector.release()) {
