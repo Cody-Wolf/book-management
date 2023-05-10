@@ -1,8 +1,11 @@
+package org.zjucsdb.library_management_system;
+
 import entities.Book;
 import entities.Borrow;
 import entities.Card;
-import queries.ApiResult;
-import queries.BookQueryConditions;
+import org.zjucsdb.library_management_system.queries.*;
+import org.zjucsdb.library_management_system.queries.ApiResult;
+import org.zjucsdb.library_management_system.queries.BookQueryConditions;
 
 import java.sql.PreparedStatement;
 import java.util.List;
@@ -103,7 +106,7 @@ public interface LibraryManagementSystem {
      * @param conditions query conditions
      *
      * @return query results should be returned by ApiResult.payload
-     *         and should be an instance of {@link queries.BookQueryResults}
+     *         and should be an instance of {@link BookQueryResults}
      */
     ApiResult queryBook(BookQueryConditions conditions);
 
@@ -133,7 +136,7 @@ public interface LibraryManagementSystem {
      *
      * @param cardId show which card's borrow history
      * @return query results should be returned by ApiResult.payload
-     *         and should be an instance of {@link queries.BorrowHistories}
+     *         and should be an instance of {@link BorrowHistories}
      */
     ApiResult showBorrowHistory(int cardId);
 
@@ -162,7 +165,7 @@ public interface LibraryManagementSystem {
      * list all cards order by card_id.
      *
      * @return query results should be returned by ApiResult.payload
-     *         and should be an instance of {@link queries.CardList}
+     *         and should be an instance of {@link CardList}
      */
     ApiResult showCards();
 

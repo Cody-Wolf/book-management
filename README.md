@@ -1,7 +1,7 @@
 ## 图书管理系统框架使用指南——Java
 
 ### 环境要求
-- JDK 1.8.0及以上，可通过`java -version`命令查看
+- JDK 17 及以上，可通过`java -version`命令查看
 - Apache Maven 3.6.3及以上，可通过`mvn -v`命令查看
 
 `resources`目录下存放了数据库连接的相关配置以及Sql脚本
@@ -17,3 +17,6 @@
 
 运行某个特定的测试
 `mvn -Dtest=LibraryTest#parallelBorrowBookTest clean test`
+
+测试 30 分钟后端
+`mvn -Dtest=LibraryManagementApplicationITCase clean test`

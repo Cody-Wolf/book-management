@@ -1,4 +1,4 @@
-package utils;
+package org.zjucsdb.library_management_system.utils;
 
 import entities.Book;
 import org.apache.commons.lang3.RandomUtils;

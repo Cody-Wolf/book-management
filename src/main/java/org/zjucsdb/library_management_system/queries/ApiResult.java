@@ -1,4 +1,4 @@
-package queries;
+package org.zjucsdb.library_management_system.queries;
 
 public class ApiResult {
 

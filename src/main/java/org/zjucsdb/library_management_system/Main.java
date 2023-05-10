@@ -1,8 +1,14 @@
-import utils.ConnectConfig;
-import utils.DatabaseConnector;
+package org.zjucsdb.library_management_system;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.zjucsdb.library_management_system.springboot.controller.LibraryManagementApplication;
+import org.zjucsdb.library_management_system.utils.ConnectConfig;
+import org.zjucsdb.library_management_system.utils.DatabaseConnector;
 
 import java.util.logging.Logger;
 
+@SpringBootApplication
 public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class.getName());
@@ -19,7 +25,8 @@ public class Main {
                 log.severe("Failed to connect database.");
                 System.exit(1);
             }
-            /* do somethings */
+
+            LibraryManagementApplication.start();
 
             // release database connection handler
             if (connector.release()) {

@@ -1,4 +1,4 @@
-package utils;
+package org.zjucsdb.library_management_system.utils;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -38,7 +38,7 @@ public final class ConnectConfig {
 
     @Override
     public String toString() {
-        return "utils.ConnectConfig: {" + "host='" + host + '\'' +
+        return "org.zjucsdb.utils.ConnectConfig: {" + "host='" + host + '\'' +
                 ", port='" + port + '\'' +
                 ", user='" + user + '\'' +
                 ", password='" + password + '\'' +

@@ -1,4 +1,4 @@
-package utils;
+package org.zjucsdb.library_management_system.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

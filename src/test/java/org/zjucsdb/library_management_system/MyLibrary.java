@@ -1,10 +1,12 @@
+package org.zjucsdb.library_management_system;
+
 import entities.Book;
 import entities.Borrow;
 import entities.Card;
 import org.apache.commons.lang3.RandomUtils;
 import org.junit.Assert;
-import queries.ApiResult;
-import utils.RandomData;
+import org.zjucsdb.library_management_system.queries.ApiResult;
+import org.zjucsdb.library_management_system.utils.RandomData;
 
 import java.util.*;
 

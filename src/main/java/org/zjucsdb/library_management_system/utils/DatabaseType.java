@@ -1,4 +1,4 @@
-package utils;
+package org.zjucsdb.library_management_system.utils;
 
 public enum DatabaseType {
     MYSQL("mysql", "com.mysql.cj.jdbc.Driver", new MysqlInitializer()),

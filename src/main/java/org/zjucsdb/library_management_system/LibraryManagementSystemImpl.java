@@ -1,11 +1,15 @@
+package org.zjucsdb.library_management_system;
+
 import entities.Book;
 import entities.Borrow;
 import entities.Card;
-import queries.*;
-import utils.DBInitializer;
-import utils.DatabaseConnector;
+import org.zjucsdb.library_management_system.queries.ApiResult;
+import org.zjucsdb.library_management_system.queries.BookQueryConditions;
+import org.zjucsdb.library_management_system.utils.DBInitializer;
+import org.zjucsdb.library_management_system.utils.DatabaseConnector;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.Statement;
 import java.util.List;
 
 public class LibraryManagementSystemImpl implements LibraryManagementSystem {

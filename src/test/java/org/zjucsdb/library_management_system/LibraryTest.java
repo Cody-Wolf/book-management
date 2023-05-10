@@ -1,3 +1,5 @@
+package org.zjucsdb.library_management_system;
+
 import entities.Book;
 import entities.Borrow;
 import entities.Card;
@@ -8,10 +10,10 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import queries.*;
-import utils.ConnectConfig;
-import utils.DatabaseConnector;
-import utils.RandomData;
+import org.zjucsdb.library_management_system.queries.*;
+import org.zjucsdb.library_management_system.utils.ConnectConfig;
+import org.zjucsdb.library_management_system.utils.DatabaseConnector;
+import org.zjucsdb.library_management_system.utils.RandomData;
 
 import java.util.*;
 import java.util.stream.Collectors;
