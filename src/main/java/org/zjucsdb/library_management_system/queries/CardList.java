@@ -1,6 +1,6 @@
 package org.zjucsdb.library_management_system.queries;
 
-import entities.Card;
+import org.zjucsdb.library_management_system.entities.Card;
 
 import java.util.List;
 

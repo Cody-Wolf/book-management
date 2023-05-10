@@ -1,6 +1,6 @@
 package org.zjucsdb.library_management_system.utils;
 
-import entities.Book;
+import org.zjucsdb.library_management_system.entities.Book;
 import org.apache.commons.lang3.RandomUtils;
 
 import java.util.Arrays;

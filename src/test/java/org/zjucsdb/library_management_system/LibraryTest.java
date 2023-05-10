@@ -1,8 +1,8 @@
 package org.zjucsdb.library_management_system;
 
-import entities.Book;
-import entities.Borrow;
-import entities.Card;
+import org.zjucsdb.library_management_system.entities.Book;
+import org.zjucsdb.library_management_system.entities.Borrow;
+import org.zjucsdb.library_management_system.entities.Card;
 import org.apache.commons.lang3.RandomUtils;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.Pair;

@@ -1,4 +1,4 @@
-package entities;
+package org.zjucsdb.library_management_system.entities;
 
 import java.util.Comparator;
 import java.util.Objects;

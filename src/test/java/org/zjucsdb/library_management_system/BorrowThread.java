@@ -1,6 +1,6 @@
 package org.zjucsdb.library_management_system;
 
-import entities.Borrow;
+import org.zjucsdb.library_management_system.entities.Borrow;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;

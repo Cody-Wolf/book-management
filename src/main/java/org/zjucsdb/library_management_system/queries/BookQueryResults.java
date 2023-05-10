@@ -1,6 +1,6 @@
 package org.zjucsdb.library_management_system.queries;
 
-import entities.Book;
+import org.zjucsdb.library_management_system.entities.Book;
 
 import java.util.List;
 

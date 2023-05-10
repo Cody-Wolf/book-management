@@ -1,7 +1,7 @@
 package org.zjucsdb.library_management_system.queries;
 
-import entities.Book;
-import entities.Borrow;
+import org.zjucsdb.library_management_system.entities.Book;
+import org.zjucsdb.library_management_system.entities.Borrow;
 
 import java.util.List;
 

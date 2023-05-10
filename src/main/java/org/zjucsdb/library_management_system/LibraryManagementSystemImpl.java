@@ -1,8 +1,8 @@
 package org.zjucsdb.library_management_system;
 
-import entities.Book;
-import entities.Borrow;
-import entities.Card;
+import org.zjucsdb.library_management_system.entities.Book;
+import org.zjucsdb.library_management_system.entities.Borrow;
+import org.zjucsdb.library_management_system.entities.Card;
 import org.zjucsdb.library_management_system.queries.ApiResult;
 import org.zjucsdb.library_management_system.queries.BookQueryConditions;
 import org.zjucsdb.library_management_system.utils.DBInitializer;
